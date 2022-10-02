@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import navigation from './navigation';
+import Navigation from './navigation';
 
 const Header = () =>{
     return (
@@ -9,7 +9,7 @@ const Header = () =>{
           <h2>Front End <span class="dev">Developer</span></h2>
         </div>
         <div class="header-links"> 
-          {navigation}
+          <Navigation/>
         </div>
   </div>
     )

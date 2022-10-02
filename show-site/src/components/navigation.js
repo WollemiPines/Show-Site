@@ -3,16 +3,16 @@ const navigation = () =>{
     return (
         <div>
         <div class="h-link">
-               <a href="#project_images">Projects</a>
+               <a href="../pages/projects.js">Projects</a>
           </div>
             <div class="h-link">
-                 <a href="#content_about">About</a>
+                 <a href="../pages/about.js">About</a>
             </div>
             <div class="h-link">
-                 <a href="#content_resume">Resume</a>
+                 <a href="../pages/resume.js">Resume</a>
             </div>
             <div class="h-link">
-                 <a href="#content_contact">Contact</a>
+                 <a href="../pages/contact">Contact</a>
            </div>
         </div>
     )
