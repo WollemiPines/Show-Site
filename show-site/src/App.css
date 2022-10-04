@@ -18,6 +18,21 @@
   height:100%;
 }
 
+.card img, .card{
+  max-width: 30rem;
+}
+.projects{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+  padding:50px;
+  border-width: 10px;
+}
 
 
 .nav-list{
