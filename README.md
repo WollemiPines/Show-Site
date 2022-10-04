@@ -20,7 +20,7 @@ Quick and easy access to examples of my past work is a challange typiclally. Wit
 React, thporugh its components has has also enabled the easy updating of information and expanding of the site in the future.
 
 ## Media: <a name="media"></a>
-![](./public/example.png)
+./public/example.png
 
 ## Contribution guidelines: <a name="contribute"></a>
 Create a fork of this repo to work on expanding the functionality
