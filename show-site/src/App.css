@@ -1,38 +1,113 @@
-.App {
-  text-align: center;
+/* Variable directory */
+:root {
+  --dark: #13293d;
+  --light: #fff;
+  --background: #ffffff;
+  --header_text: rgb(86, 150, 59);
+  --contrast_text: rgb(28, 117, 47);
+  --button_color: rgb(120, 195, 139);
+  --button_color_active:rgb(72, 161, 94);
+}
+.dev {
+  color: var(--contrast_text);
+  font-style: italic;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-img{
+  width:stretch;
+  height:100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.nav-list{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #333;
+  color:rgb(42, 147, 0);
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-list :active :hover{
+  color: rgb(32, 102, 4);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-list :visited{
+  color: inherit;
+}
+
+.nav-list a {
+  text-decoration: none;
+}
+.nav-list ul {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  gap: 2rem;
+  padding: 1rem;
+  list-style: none;
+}
+.content_about, .content_resume, .content_contact{
+  text-align: center;
+  padding:30px 2% 30px;
+}
+.content_about [src$=".png"]{
+border-radius: 20px;
+}
+h4{
+  color:var(--header_text);
+  font-size: 20px;
+  margin:15px;
+  background-color: var(--button_color);
+  border-radius: 15px;
+}
+/* Link fottating */
+.h-link a:hover{
+  padding:5px;
+  background-color: var(--button_color);
+  border-radius: 15px 6px 15px;
+  transform: skew(-25deg);
+  text-decoration: none;
+}
+.link a:hover{
+  padding:5px;
+  background-color: var(--button_color);
+  border-radius: 15px 6px 15px;
+  transform: skew(-25deg);
+  text-decoration: none;
+}
+.h-link a:link{
+  padding:5px;
+  font-size: 110%;
+  color: var(--header_text);
+  text-decoration: none;
+}
+.link a:link{
+  padding:5px;
+  font-size: 110%;
+  color: var(--header_text);
+  text-decoration: none;
+}
+a:active{
+  text-decoration: none;
+}
+a:visited{
+  padding:5px;
+  font-size: 110%;
+  color: var(--header_text);
+  text-decoration: none;
+}
+/* Footer */
+footer{
+  width:100%;
+  background-color: var(--background);
+  padding:37px;
+}
+.container{
+  text-align: center;
+  border-top:3px var(--button_color) solid;
+  padding: 15px;
+}
+.footer-text{
+  font-size: 12px;
 }
