@@ -4,16 +4,16 @@ const navigation= () =>{
   <div class="nav-list">
     <ul>
     <li class="h-link">
-    <a href="/about">About</a>
+    <a href="/Show-Site/about">About</a>
     </li>
     <li class="h-link">
-    <a href="/projects">Projects</a>
+    <a href="/Show-Site/projects">Projects</a>
     </li>
     <li class="h-link">
-    <a href="/contact">Contact</a>
+    <a href="/Show-Site/contact">Contact</a>
     </li>
     <li class="h-link">
-      <a href="/resume">Resume</a>
+      <a href="/Show-Site/resume">Resume</a>
     </li>
     </ul>
   </div>
