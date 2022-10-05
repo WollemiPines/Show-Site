@@ -1,4 +1,9 @@
-const Resume = () => (
+import React from 'react';
+
+class Resume extends React.Component {
+    
+  render() {
+      return (
     <section class="content_resume" id="content_resume">
     <h4>Resume</h4>
       <div class="link">
@@ -8,4 +13,6 @@ const Resume = () => (
      
 
   );
+      }
+    }
 export default Resume

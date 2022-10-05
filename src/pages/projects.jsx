@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
 import Project from '../components/project';
+import React from 'react';
 
-const Projects = (props) =>{
-    return (
+class Projects extends React.Component {
+    
+  render() {
+      return (
         <div class="content_contact" id="content_contact">
         <h4>Projects</h4>
         <div className='projects'>
@@ -10,5 +12,6 @@ const Projects = (props) =>{
         </div>
         </div>
     )
+}
 }
 export default Projects;

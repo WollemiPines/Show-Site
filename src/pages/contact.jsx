@@ -1,4 +1,9 @@
-const Contact = () => (
+import React from 'react';
+
+class Contact extends React.Component {
+    
+  render() {
+      return (
     <div class="content_contact" id="content_contact">
     <h4>Contact</h4>
        <p>Please contact me via email
@@ -12,5 +17,7 @@ const Contact = () => (
         </div>
 
 </div>
-  );
+  )
+      }
+    };
 export default Contact
