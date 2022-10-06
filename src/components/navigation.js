@@ -3,12 +3,12 @@ import { Router, Link } from 'react-router-dom';
 
 export default function Navigation() {
   return (
-    <Router>
+
       <div>
-        <nav>
+        <nav class='nav-list'>
           <ul>
             <li class="h-ref">
-              <Link to="/">About</Link>
+              <Link to="/about">About</Link>
             </li>
             <li class="h-ref">
               <Link to="/contact">Contact</Link>
@@ -22,6 +22,6 @@ export default function Navigation() {
           </ul>
         </nav>
       </div>
-    </Router>
+
   );
 }

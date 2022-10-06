@@ -43,17 +43,14 @@
   width: 100%;
 }
 
-.nav-list :active :hover{
+.nav-list a :active :hover{
   color: rgb(32, 102, 4);
 }
 
-.nav-list :visited{
+.nav-list a :visited{
   color: inherit;
 }
 
-.nav-list a {
-  text-decoration: none;
-}
 .nav-list ul {
   display: flex;
   justify-content: flex-end;
@@ -77,27 +74,21 @@ h4{
   border-radius: 15px;
 }
 /* Link fottating */
-.h-link a:hover{
+
+.nav-list a:hover{
   padding:5px;
   background-color: var(--button_color);
   border-radius: 15px 6px 15px;
   transform: skew(-25deg);
   text-decoration: none;
 }
-.link a:hover{
-  padding:5px;
-  background-color: var(--button_color);
-  border-radius: 15px 6px 15px;
-  transform: skew(-25deg);
-  text-decoration: none;
-}
-.h-link a:link{
+.nav-list a:link{
   padding:5px;
   font-size: 110%;
   color: var(--header_text);
   text-decoration: none;
 }
-.link a:link{
+ a:link{
   padding:5px;
   font-size: 110%;
   color: var(--header_text);
@@ -125,4 +116,7 @@ footer{
 }
 .footer-text{
   font-size: 12px;
+}
+nav {
+  text-decoration: none;
 }
