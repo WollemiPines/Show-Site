@@ -1,31 +1,7 @@
 import React, { useState } from 'react';
-import Navbar from './navigation';
-import About from '../pages/about';
-import Contact from '../pages/contact';
-import Resume from '../pages/resume';
-import Projects from '../pages/projects';
+import Navigation from './navigation';
 
 function Header() {
-  let component;
-  switch (window.location.pathname) {
-    case '/':
-      component = <About />;
-      break;
-    case '/contact':
-      component = <Contact />;
-      break;
-    case '/about':
-      component = <About />;
-      break;
-    case '/projects':
-      component = <Projects />;
-      break;
-    case '/resume':
-      component = <Resume />;
-      break;
-     default:
-        component = <About />;
-  }
 
   return (
     <div class="header_container">
@@ -37,8 +13,8 @@ function Header() {
         </h2>
       </div>
       <div class="header-links">
-        <Navbar />
-        {component}
+        <Navigation />
+
       </div>
       </div>
     </div>

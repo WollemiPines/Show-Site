@@ -1,22 +1,27 @@
-import React, { useState } from 'react';
-const navigation= () =>{
+import React from 'react';
+import { Router, Link } from 'react-router-dom';
+
+export default function Navigation() {
   return (
-  <div class="nav-list">
-    <ul>
-    <li class="h-link">
-    <a href="/Show-Site/about">About</a>
-    </li>
-    <li class="h-link">
-    <a href="/Show-Site/projects">Projects</a>
-    </li>
-    <li class="h-link">
-    <a href="/Show-Site/contact">Contact</a>
-    </li>
-    <li class="h-link">
-      <a href="/Show-Site/resume">Resume</a>
-    </li>
-    </ul>
-  </div>
+    <Router>
+      <div>
+        <nav>
+          <ul>
+            <li class="h-ref">
+              <Link to="/">About</Link>
+            </li>
+            <li class="h-ref">
+              <Link to="/contact">Contact</Link>
+            </li>
+            <li class="h-ref">
+              <Link to="/resume">Resume</Link>
+            </li>
+            <li class="h-ref">
+              <Link to="/projects">Projects</Link>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </Router>
   );
 }
-export default navigation;

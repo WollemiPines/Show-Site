@@ -2,22 +2,25 @@ import React from 'react';
 import './App.css';
 import Footer from '../src/components/footer';
 import Header from './components/header';
-import { Route, Switch, Link } from "react-router-dom";
+import { Route, Routes } from 'react-router-dom';
 import About from './pages/about';
 import Contact from './pages/contact';
+import Resume from './pages/resume';
+import Projects from './pages/projects';
 
 function App() {
   return (
-   <div>
     <div>
-            <Header/>
-            <Footer/>
-        
+      <Header />
+      <Routes>
+      <Route exact path="/about" element={<About />} />
+      <Route exact path="/contact" element={<Contact />} />
+      <Route exact path="/resume" element={<Resume />} />
+      <Route exact path="/projects" element={<Projects />} />
+      </Routes>
+      <Footer />
     </div>
-
-
-</div>
   );
 }
-  
+
 export default App;
