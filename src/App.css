@@ -12,6 +12,9 @@
   color: var(--contrast_text);
   font-style: italic;
 }
+.header_title{
+  padding-left: 20px;
+}
 
 .header-img{
   width:stretch;
@@ -19,18 +22,24 @@
 }
 
 .card img, .card{
-  max-width: 30rem;
+  max-width: 25rem;
 }
-.projects{
+
+.projects {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+justify-content:  center;
+ 
+}
+
+.projects div{
+  display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content:  center;
 }
 
 .card{
-  display: flex;
-  justify-content: center;
-  padding:50px;
+  padding:30px;
   border-width: 10px;
 }
 
@@ -107,7 +116,7 @@ a:visited{
 footer{
   width:100%;
   background-color: var(--background);
-  padding:37px;
+  padding-top:37px;
 }
 .container{
   text-align: center;
@@ -119,4 +128,19 @@ footer{
 }
 nav {
   text-decoration: none;
+}
+
+/* Resizing page */
+@media screen and (max-width: 980px) {
+  .card, .card img[src$=".png"]{
+    max-width: 20rem;
+  }
+  }
+
+@media screen and (max-width: 520px) {
+  .card, .card img[src$=".png"]{
+    max-width: 15rem;
+  }
+
+
 }

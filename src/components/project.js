@@ -9,17 +9,15 @@ import weathersite from '../images/WeatherSite.png';
 function Project() {
     const project = projs.map((proj) =>
       <div class="card" key={proj.id}>
-        <div class="project_image_wraper card-img-top">
             <div class="project_image">
                  <a href={proj.github}>
                  <img src={proj.image} alt={proj.alt}></img>
-                   <div class="card-title">
-                  
+                   <div class="card-title">                 
                       <h1 class="card-title">{proj.title}</h1>
                        <p class="card-text">{proj.content}</p>
                     </div>
                  </a>
-            </div>
+  
       </div>
      
 </div>
