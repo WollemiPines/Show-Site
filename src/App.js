@@ -13,11 +13,11 @@ function App() {
     <div>
       <Header />
       <Routes>
-      <Route exact path="/" element={<About />} />
-      <Route exact path="/about" element={<About />} />
-      <Route exact path="/contact" element={<Contact />} />
-      <Route exact path="/resume" element={<Resume />} />
-      <Route exact path="/projects" element={<Projects />} />
+      <Route exact path="/Show-Site/" element={<About />} />
+      <Route exact path="/Show-Site/about" element={<About />} />
+      <Route exact path="/Show-Site/contact" element={<Contact />} />
+      <Route exact path="/Show-Site/resume" element={<Resume />} />
+      <Route exact path="/Show-Site/projects" element={<Projects />} />
       </Routes>
       <Footer />
     </div>

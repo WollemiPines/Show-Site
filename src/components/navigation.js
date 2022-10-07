@@ -8,16 +8,16 @@ export default function Navigation() {
         <nav class='nav-list'>
           <ul>
             <li class="h-ref">
-              <Link to="/about">About</Link>
+              <Link to="/Show-Site/about">About</Link>
             </li>
             <li class="h-ref">
-              <Link to="/contact">Contact</Link>
+              <Link to="/Show-Site/contact">Contact</Link>
             </li>
             <li class="h-ref">
-              <Link to="/resume">Resume</Link>
+              <Link to="/Show-Site/resume">Resume</Link>
             </li>
             <li class="h-ref">
-              <Link to="/projects">Projects</Link>
+              <Link to="/Show-Site/projects">Projects</Link>
             </li>
           </ul>
         </nav>
