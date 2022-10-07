@@ -13,7 +13,7 @@ A react based page that allows people to browse my projects.
 
 
 ## Installation Instructions: <a name="install"></a>
-No installation is nessecary, simpily visit the github page at: [https://wollemipines.github.io/Show-Site/]!(https://wollemipines.github.io/Show-Site/)
+No installation is nessecary, simpily visit the github page at: ![https://wollemipines.github.io/Show-Site](https://wollemipines.github.io/Show-Site/)
 
 ## Motivation: <a name="motivation"></a>
 Quick and easy access to examples of my past work is a challange typiclally. With a dedicated site that can show this work off and can be loaded on any divice, it makes this much easier. 
@@ -32,4 +32,4 @@ No current tests avaialiable but the app.test.js file will contain these when ad
 ## Questions <a name="questions"></a>
 Please email any questions about this project to: Chrisw1096@gmail.com
 or contact me though my github: 
-[Wollemipines:](https://github.com/Wollemipines)
+[Wollemipines](https://github.com/Wollemipines)
