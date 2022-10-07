@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Show-Site/static/css/main.57a2fa08.css",
+    "main.js": "/Show-Site/static/js/main.2d8551ff.js",
+    "static/js/787.fa27c637.chunk.js": "/Show-Site/static/js/787.fa27c637.chunk.js",
+    "static/media/JSQuiz.gif": "/Show-Site/static/media/JSQuiz.5e5dffbcf4220acba267.gif",
+    "static/media/Marvelous.png": "/Show-Site/static/media/Marvelous.fe89b6bc5ab7f540ef55.png",
+    "static/media/Avatar.png": "/Show-Site/static/media/Avatar.88bef87a8bf816d93b8d.png",
+    "static/media/WeatherSite.png": "/Show-Site/static/media/WeatherSite.c79d0232fede3d9a937d.png",
+    "static/media/LIFT.png": "/Show-Site/static/media/LIFT.b250321c5f0fa6ba1bde.png",
+    "static/media/passwordGen.png": "/Show-Site/static/media/passwordGen.0a418f85e4d80773da81.png",
+    "static/media/Calendar.png": "/Show-Site/static/media/Calendar.0c86b055807e9f828125.png",
+    "index.html": "/Show-Site/index.html",
+    "main.57a2fa08.css.map": "/Show-Site/static/css/main.57a2fa08.css.map",
+    "main.2d8551ff.js.map": "/Show-Site/static/js/main.2d8551ff.js.map",
+    "787.fa27c637.chunk.js.map": "/Show-Site/static/js/787.fa27c637.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57a2fa08.css",
+    "static/js/main.2d8551ff.js"
+  ]
+}
